@@ -2,7 +2,6 @@ name = "pastebin-worker"
 compatibility_date = "2023-10-30"
 compatibility_flags = ["nodejs_compat"]
 
-account_id = "516d0a360ccdea88dd79e9cf5d2bc3aa"
 main = "src/index.ts"
 workers_dev = false
 
@@ -23,4 +22,3 @@ custom_domain = true
 [[d1_databases]]
 binding = "DB"
 database_name = "pastebins"
-database_id = "e7d77803-c383-45c8-9481-c1630aa43bca"
