@@ -18,9 +18,7 @@ bucket = "./static/dist"
 pattern = "as.al"
 custom_domain = true
 
-[[r2_buckets]]
-binding = 'BUCKET'
-bucket_name = 'pastes'
+
 
 [[d1_databases]]
 binding = "DB"
