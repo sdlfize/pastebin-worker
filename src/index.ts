@@ -162,13 +162,7 @@ app.post('/api/upload', async (c) => {
   const createTime = Date.now();
 
   // Store file in R2
-  await c.env.BUCKET.put(id, await file.arrayBuffer(), {
-    customMetadata: {
-      name: file.name,
-      size: file.size.toString(),
-      type: file.type,
-    },
-  });
+
 
   // Store file record in database
   const db = createDB(c.env.DB);
