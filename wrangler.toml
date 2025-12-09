@@ -7,7 +7,7 @@ workers_dev = false
 
 [vars]
 ENVIRONMENT = "production"
-BASE_URL = "https://as.al"
+BASE_URL = "https://paste.laserv.uk"
 
 [site]
 bucket = "./static/dist"
